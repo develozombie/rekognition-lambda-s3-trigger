@@ -22,7 +22,7 @@ Actions:
       Sources:
         - WorkflowSource # This specifies that the action requires this Workflow as a source
     Compute:
-      Type: EC2 # Defines the action's properties.
+      Type: Lambda
     Configuration:
-      StackName: test
+      StackName: RekognitionLambdaS3TriggerStack
       Region: us-east-1
